@@ -1,0 +1,13 @@
+---
+title: "Learning"
+output: html_document
+---
+
+## Looking for Help
+`?mean`          # Shows documentation for the mean function<br>
+`help(mean)`     # Same thing
+
+e.g. `?dplyr::filter`
+
+
+## Useful Functions
