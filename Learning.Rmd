@@ -4,10 +4,24 @@ output: html_document
 ---
 
 ## Looking for Help
-`?mean`          # Shows documentation for the mean function<br>
-`help(mean)`     # Same thing
+### ? and help()
+- `?mean`          # Shows documentation for the mean function
+- `help(mean)`     # Same thing
 
-e.g. `?dplyr::filter`
+Example:
+`?dplyr::filter`
+
+### ?? and help.search()
+- `??"linear regression"`
+- `help.search("linear regression")`
+This is useful if you don’t know the exact function name. But it doesn't always
+work as one might expect.
+
+### Example command
+- `example(rename)` # Shows examples of how to use the function
+
+### View Function Source Code
+dplyr::filter  # Just type the function name without parentheses
 
 
 ## Useful Functions
