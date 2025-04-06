@@ -25,3 +25,22 @@ dplyr::filter  # Just type the function name without parentheses
 
 
 ## Useful Functions
+
+## ggplot()
+
+```{r}
+# Load the ggplot2 package
+library(ggplot2)
+
+# Sample data
+df <- data.frame(
+  fruit = c("Apple", "Banana", "Cherry", "Date"),
+  count = c(10, 15, 7, 5)
+)
+
+# Create a bar chart
+ggplot(df, aes(x = fruit, y = count)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(title = "Fruit Count", x = "Fruit", y = "Count") +
+  theme_minimal()
+```
